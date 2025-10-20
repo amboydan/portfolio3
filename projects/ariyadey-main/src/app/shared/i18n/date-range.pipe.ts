@@ -10,6 +10,7 @@ import { DateTime } from "luxon";
  */
 @Pipe({
   name: "dateRange",
+  standalone: true
 })
 export class DateRangePipe implements PipeTransform {
   readonly i18nService = inject(I18nService);

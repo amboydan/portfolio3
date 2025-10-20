@@ -6,6 +6,7 @@ import { PersonalInfoService } from "@main/shared/personal-info/personal-info.se
 
 @Component({
   selector: "app-summary",
+  standalone: true,
   templateUrl: "./summary.component.html",
   styles: ``,
   imports: [MatCard, MatCardHeader, MatCardContent, MatCardTitle, TruncatableDirective, I18nPipe],

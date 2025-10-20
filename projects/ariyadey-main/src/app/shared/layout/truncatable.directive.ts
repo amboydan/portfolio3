@@ -34,6 +34,7 @@ import { fromEvent, startWith, throttleTime } from "rxjs";
  */
 @Directive({
   selector: "[truncate]",
+  standalone: true
 })
 export class TruncatableDirective implements OnInit, AfterViewInit, OnDestroy {
   readonly expandTextKey = input("action.truncate.undo");

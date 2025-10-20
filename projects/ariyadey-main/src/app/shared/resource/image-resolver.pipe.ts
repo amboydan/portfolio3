@@ -14,6 +14,7 @@ import { UrlUtils } from "@main/shared/resource/url-utils";
  */
 @Pipe({
   name: "imgResolve",
+  standalone: true
 })
 export class ImgResolvePipe implements PipeTransform {
   private readonly urlUtils = inject(UrlUtils);

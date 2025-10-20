@@ -5,6 +5,7 @@ import { PersonalInfoService } from "@main/shared/personal-info/personal-info.se
 
 @Component({
   selector: "app-communication-channels",
+  standalone: true,
   imports: [MatIcon, MatIconAnchor],
   templateUrl: "./communication-channels.component.html",
   styles: ``,

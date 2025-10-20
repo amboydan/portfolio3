@@ -4,6 +4,7 @@ import { PersonalInfoService } from "@main/shared/personal-info/personal-info.se
 
 @Component({
   selector: "app-email",
+  standalone: true,
   imports: [MatAnchor],
   templateUrl: "./email.component.html",
   styles: ``,

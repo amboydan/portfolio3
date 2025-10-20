@@ -11,6 +11,7 @@ import { PersonalInfoService } from "@main/shared/personal-info/personal-info.se
 
 @Component({
   selector: "app-skills",
+  standalone: true,
   imports: [
     MatCard,
     MatCardHeader,

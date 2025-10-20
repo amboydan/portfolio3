@@ -9,6 +9,7 @@ import { auditTime, distinctUntilChanged, fromEvent, map, Observable } from "rxj
 @Component({
   selector: "app-back-to-top",
   templateUrl: "./back-to-top.component.html",
+  standalone: true,
   styles: `
     .wrapper {
       transition:

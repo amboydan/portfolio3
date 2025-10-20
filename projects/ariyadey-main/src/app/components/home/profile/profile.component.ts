@@ -19,6 +19,7 @@ import { ImgResolvePipe } from "@main/shared/resource/image-resolver.pipe";
 
 @Component({
   selector: "app-profile",
+  standalone: true,
   imports: [
     MatCardSubtitle,
     MatCardHeader,

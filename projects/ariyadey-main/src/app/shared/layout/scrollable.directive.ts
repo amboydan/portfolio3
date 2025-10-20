@@ -10,6 +10,7 @@ import { ActivatedRoute, Router } from "@angular/router";
  */
 @Directive({
   selector: "[scroll]",
+  standalone: true
 })
 export class ScrollableDirective {
   readonly document = inject(DOCUMENT);

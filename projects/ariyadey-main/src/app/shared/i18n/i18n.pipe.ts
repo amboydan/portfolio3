@@ -4,6 +4,7 @@ import { Language } from "@main/shared/i18n/language";
 
 @Pipe({
   name: "i18n",
+  standalone: true
 })
 export class I18nPipe implements PipeTransform {
   readonly i18nService = inject(I18nService);

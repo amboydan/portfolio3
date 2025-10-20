@@ -6,6 +6,7 @@ import { I18nPipe } from "@main/shared/i18n/i18n.pipe";
 
 @Component({
   selector: "app-contact",
+  standalone: true,
   imports: [
     MatCard,
     MatCardHeader,

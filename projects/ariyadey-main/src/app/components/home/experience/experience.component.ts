@@ -12,6 +12,7 @@ import { ImgResolvePipe } from "@main/shared/resource/image-resolver.pipe";
 
 @Component({
   selector: "app-experience",
+  standalone: true,
   imports: [
     MatCard,
     MatCardHeader,
