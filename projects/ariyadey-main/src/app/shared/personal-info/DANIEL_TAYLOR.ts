@@ -11,7 +11,7 @@ import { SOCIALS } from "@main/shared/business/social";
 // TODO:
 //  15/06/2025 Dynamic content like name and description shouldn't be defined in translation files
 //  and instead they should be here.
-export const ARIYA_MOHEB: Person = {
+export const DANIEL_TAYLOR: Person = {
   main: {
     firstName: "me.first-name",
     lastName: "me.last-name",
@@ -19,7 +19,7 @@ export const ARIYA_MOHEB: Person = {
     description: "me.description",
     avatarPath: "res_photo.avif",
     avatarPathAlt: "me.avatar-alt",
-    resumePath: "resume.pdf",
+    resumePath: "Daniel_Taylor_Resume_2025.pdf",
   },
   skills: {
     [SkillCategory.COMPUTER_SCIENCE]: [
@@ -140,12 +140,12 @@ export const ARIYA_MOHEB: Person = {
     },
   ],
   contacts: {
-    email: "ariya.mms@gmail.com",
+    email: "amboydan@protonmail.com",
     socials: [
-      { ...SOCIALS.LINKEDIN, url: "https://linkedin.com/in/ariyadey" },
-      { ...SOCIALS.TELEGRAM, url: "https://ariyadey.t.me" },
+      { ...SOCIALS.LINKEDIN, url: "" }, // https://linkedin.com/in/ariyadey
+      { ...SOCIALS.TELEGRAM, url: "" }, // https://ariyadey.t.me
       { ...SOCIALS.GITHUB, url: "https://github.com/amboydan" },
-      { ...SOCIALS.STACK_OVERFLOW, url: "https://stackoverflow.com/users/7930516/ariyadey" },
+      { ...SOCIALS.STACK_OVERFLOW, url: "" }, // https://stackoverflow.com/users/7930516/ariyadey
     ],
   },
 };

@@ -19,11 +19,11 @@
     }
   },
   "me": {
-    "first-name": "Ariya",
-    "last-name": "Moheb",
+    "first-name": "Daniel",
+    "last-name": "Taylor",
     "full-name": "{{me.first-name}} {{me.last-name}}",
-    "headline": "Full-stack Software Engineer",
-    "description": "Hi! I'm Ariya Moheb, a results-oriented Software Engineer with over 5 years of experience in enterprise and web application development. I specialize in Angular, Java, and Spring Framework.\n\nMy passion lies in crafting high-quality, high-performance software solutions that address real-world challenges. I thrive on translating complex requirements into intuitive user experiences and efficient backend systems. Throughout my career, I've focused on driving impactful improvements, always prioritizing clean, maintainable code.\n\nThis website is my personal space to share my professional journey and showcase projects that reflect my commitment to technical excellence and continuous learning.\n\nI'm keen to contribute my skills to innovative projects within dynamic, international remote teams. Please feel free to explore my work in the projects section, and I look forward to connecting!",
+    "headline": "Well Integrity Engineer",
+    "description": "Hello! My name is Daniel Taylor, after 15 years in the upstream petroleum industry I have decided to become an Anctuary. \n\n I have always had a desire to study statistics and finance.  In 2023 I finished my masters degree in Statistics from Texas A&M and applied it to my work as a Reservoir Engineer.  I have been continuing to develop my statistics / financial skills though actuarial exams over the last 2 years. Having passed 4 exams (P, FM, SRM, PA) its time to launch and follow the dream that began many years ago. \n\nMy experience as a value adding member of Asset Teams covering the Cook Inlet and North Slope of Alaska... \n\nPlease look through the projects listed below for examples of value adding projects associated with Statistics and most importantly, adding value. I look forward to connecting!",
     "avatar-alt": "{{me.full-name}} - {{me.headline}}",
     "project": {
       "ariyadey": {

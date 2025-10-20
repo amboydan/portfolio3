@@ -8,6 +8,7 @@ import { SummaryComponent } from "@main/components/home/summary/summary.componen
 
 @Component({
   selector: "app-home",
+  standalone: true,
   imports: [
     ContactComponent,
     SummaryComponent,

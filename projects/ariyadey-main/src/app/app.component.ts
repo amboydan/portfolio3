@@ -22,6 +22,7 @@ import { ThemeService } from "@main/shared/theming/theme.service";
 
 @Component({
   selector: "app-root",
+  standalone: true,
   templateUrl: "./app.component.html",
   styles: `
     .desktop-menu-item {
