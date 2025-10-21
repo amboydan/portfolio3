@@ -27,15 +27,15 @@
     "avatar-alt": "{{me.full-name}} - {{me.headline}}",
     "project": {
       "ariyadey": {
-        "title": "Personal Website",
+        "title": "The big one",
         "description": "- Developed and deployed a personal website from scratch, serving as a dynamic portfolio to showcase my professional journey and projects.\n- Implemented a responsive user interface with Angular and TypeScript, ensuring cross-browser compatibility and optimal performance. \n- Leveraged internationalization (i18n) for multilingual support (English and Persian) and optimized for SEO with dynamic hreflang and canonical tags. \n- Utilized GitHub Actions for CI/CD, automating build, test, and deployment processes to Cloudflare Workers for global content delivery and edge computing benefits."
       },
       "minesweeper": {
-        "title": "Minesweeper Game",
+        "title": "this one",
         "description": "- Developed an interactive web-based classic Minesweeper game using React. \n- Implemented core game logic from scratch, including recursive empty cell reveal, mine placement algorithms, and flag/question mark mechanics. \n- Focused on clean component architecture and state management to ensure a smooth user experience. \n- This project reinforced my understanding of graph-based algorithms and front-end development best practices."
       },
       "jast": {
-        "title": "JAST",
+        "title": "that one",
         "description": "JAST (Java Abstract Syntax Tree Generator) is an educational project I developed independently during my university compilers course. Built entirely with Java and its Swing framework for the GUI, JAST functions as a universal Abstract Syntax Tree (AST) generator.\n\nThe core of the project involved designing and implementing the fundamental algorithms and data structures necessary for parsing source code and constructing its corresponding AST. A key feature is its intuitive graphical user interface (GUI), which I developed using Swing, allowing for the visual representation and exploration of the generated ASTs. This project provided invaluable hands-on experience in compiler design principles, complex algorithm implementation, and robust GUI development in Java, solidifying my understanding of how programming languages are processed internally."
       }
     },

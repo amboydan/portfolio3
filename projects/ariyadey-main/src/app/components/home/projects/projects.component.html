@@ -7,7 +7,7 @@
   <mat-card-content>
     <ul class="card-content flex flex-col gap-5">
       @for (project of projects; track project; let isLast = $last) {
-        <li class="flex flex-col gap-5">
+        <li class="flex flex-col gap-6">
           <div class="flex flex-col gap-2">
             <div>
               <div class="flex items-center gap-2">
@@ -29,7 +29,7 @@
                 <span>{{ project.timeFrame.start | dateRange: project.timeFrame.end }}</span>
               </div>
             </div>
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-1">
               <p class="max-h-40 md:max-h-none" truncate reTruncate="false">
                 {{ "me.project." + project.description + ".description" | i18n }}
               </p>
