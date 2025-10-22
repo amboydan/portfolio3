@@ -11,7 +11,7 @@ import { SOCIALS } from "@main/shared/business/social";
 // TODO:
 //  15/06/2025 Dynamic content like name and description shouldn't be defined in translation files
 //  and instead they should be here.
-export const ARIYA_MOHEB: Person = {
+export const DANIEL_TAYLOR: Person = {
   main: {
     firstName: "me.first-name",
     lastName: "me.last-name",
@@ -56,6 +56,7 @@ export const ARIYA_MOHEB: Person = {
       Skill.CLOUDFLARE_WORKERS,
       Skill.JIRA,
     ],
+    [SkillCategory.STATISTICS]: []
   },
   projects: [
     {

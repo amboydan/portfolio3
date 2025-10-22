@@ -56,6 +56,16 @@ export const DANIEL_TAYLOR: Person = {
       Skill.CLOUDFLARE_WORKERS,
       Skill.JIRA,
     ],
+    [SkillCategory.STATISTICS]: [
+      Skill.ALGORITHMS,
+      Skill.R,
+      Skill.RSTUDIO,
+      Skill.SQL,
+      Skill.TIDY_VERSE,
+      Skill.EXCEL,
+      Skill.VBA,
+      Skill.VBA
+    ]
   },
   projects: [
     {
@@ -71,7 +81,7 @@ export const DANIEL_TAYLOR: Person = {
       ],
       link: "https://github.com/ariyadey/personal-website",
       timeFrame: {
-        start: new Date(2024, 6),
+        start: new Date(2024, 7),
       },
     },
     {
